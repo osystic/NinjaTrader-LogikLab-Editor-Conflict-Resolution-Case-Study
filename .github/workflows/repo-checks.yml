@@ -1,0 +1,21 @@
+name: Repository checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Required files
+        run: |
+          test -f README.md
+          test -f SECURITY.md
+          test -f OWNERSHIP.md
+          test -f .osystic/metadata.json
+      - name: Block sensitive binaries
+        run: |
+          ! find . -type f \( -iname '*.dll' -o -iname '*.pfx' -o -iname '*.key' -o -iname '*.sqlite' \) | grep .
