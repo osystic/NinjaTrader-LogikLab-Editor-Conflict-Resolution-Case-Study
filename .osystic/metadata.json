@@ -1,0 +1,10 @@
+{
+  "publisher": "OSYSTIC",
+  "repository_class": "public-case-study",
+  "visibility": "public",
+  "lifecycle": "maintenance",
+  "platform": "NinjaTrader 8",
+  "domain": "compatibility-recovery",
+  "status": "complete",
+  "private_source_of_truth": "NinjaTrader-LogikLab-Editor-Conflict-Resolution"
+}
