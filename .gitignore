@@ -1,0 +1,14 @@
+*.dll
+*.exe
+*.pdb
+*.zip
+*.7z
+*.rar
+*.sqlite
+*.db
+*.log
+.env
+.env.*
+client-data/
+private/
+secrets/
