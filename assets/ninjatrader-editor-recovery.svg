@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">NinjaTrader 8 Editor Conflict Resolution — OSYSTIC concept</title>
+<desc id="desc">An original conceptual diagnostic architecture illustration of a third-party package reference failure and staged editor repair. Not a screenshot of the client software.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F1E"/><stop offset=".5" stop-color="#101D31"/><stop offset="1" stop-color="#091322"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#203450"/><stop offset="1" stop-color="#102139"/></linearGradient>
+<linearGradient id="accent" x1="0" x2="1"><stop stop-color="#65A7FD"/><stop offset="1" stop-color="#77E2ED"/></linearGradient>
+<radialGradient id="bloom"><stop stop-color="#2788DF" stop-opacity=".25"/><stop offset="1" stop-color="#2788DF" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#7798BA" stroke-opacity=".075"/></pattern>
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="20" flood-opacity=".65" flood-color="#000713"/></filter>
+<style>
+.kicker{font:700 18px system-ui,-apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:3.4px;fill:#82C7FF}
+.title{font:700 52px system-ui,-apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:-1.6px;fill:#EFF6FF}
+.sub{font:400 20px system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:#A2B7D0}
+.section{font:700 17px system-ui,-apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:2.4px;fill:#8BAFD1}
+.h{font:700 27px system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:#E9F5FF}
+.body{font:400 18px system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:#B9C8DB}
+.tiny{font:600 15px system-ui,-apple-system,"Segoe UI",Arial,sans-serif;letter-spacing:1px;fill:#91B9D7}
+.ok{fill:#80E3BC}.bad{fill:#F9A691}
+.line{stroke:#7198B8;stroke-width:3;stroke-opacity:.55;fill:none;stroke-linecap:round}
+</style>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<ellipse cx="940" cy="490" rx="840" ry="430" fill="url(#bloom)"/>
+<text x="92" y="82" class="kicker">OSYSTIC  /  TECHNICAL RECOVERY</text>
+<text x="1500" y="82" text-anchor="end" class="section">ENGINEERING CASE STUDY</text>
+<text x="92" y="143" class="title">NinjaTrader 8 Editor Conflict Resolution</text>
+<text x="93" y="192" class="sub">A stateful assembly-reference failure — diagnosed, isolated and rebuilt</text>
+<path d="M92 224H1508" stroke="#A3BFDD" stroke-opacity=".24"/>
+<g filter="url(#shadow)">
+  <rect x="92" y="275" width="390" height="417" rx="26" fill="url(#card)" stroke="#486482" stroke-width="2"/>
+  <rect x="116" y="302" width="342" height="54" rx="12" fill="#392C3B" stroke="#A96A6B" stroke-opacity=".6"/>
+  <circle cx="147" cy="329" r="10" fill="#FF987D"/>
+  <text x="172" y="337" class="section" fill="#F3A599">01  /  INITIAL FAILURE</text>
+  <text x="126" y="408" class="h">Third-party package</text>
+  <text x="126" y="444" class="body">Package import triggered</text>
+  <text x="126" y="472" class="body">NinjaScript Editor crash</text>
+  <rect x="128" y="515" width="319" height="108" rx="17" fill="#122339" stroke="#5B7088"/>
+  <path d="M153 542H350M153 562H410M153 582H280" stroke="#7E91A4" stroke-width="8" stroke-linecap="round" stroke-opacity=".48"/>
+  <path d="M368 542l24 24m0-24l-24 24" stroke="#FF9E85" stroke-width="5" stroke-linecap="round"/>
+  <text x="128" y="658" class="tiny">DLL / CACHE CLEANUP NOT ENOUGH</text>
+</g>
+<path class="line" d="M487 488H567"/>
+<path d="M551 475l18 13-18 13" fill="none" stroke="#7FD8F0" stroke-width="3"/>
+<g filter="url(#shadow)">
+  <rect x="574" y="275" width="466" height="417" rx="26" fill="url(#card)" stroke="#6195C1" stroke-width="2"/>
+  <rect x="598" y="302" width="418" height="54" rx="12" fill="#183D5A"/>
+  <circle cx="629" cy="329" r="10" fill="#62C8FA"/>
+  <text x="654" y="337" class="section">02  /  ROOT CAUSE</text>
+  <text x="614" y="411" class="h">Persisted references</text>
+  <text x="614" y="451" class="body">Application metadata kept</text>
+  <text x="614" y="481" class="body">regenerating stale assembly links</text>
+  <rect x="613" y="510" width="387" height="126" rx="16" fill="#11253C" stroke="#49708E"/>
+  <rect x="632" y="530" width="146" height="35" rx="8" fill="#254460"/>
+  <rect x="834" y="530" width="148" height="35" rx="8" fill="#254460"/>
+  <text x="705" y="553" class="tiny" text-anchor="middle">CONFIG STATE</text>
+  <text x="908" y="553" class="tiny" text-anchor="middle">PROJECT FILES</text>
+  <path d="M778 548H833" stroke="#77C5F6" stroke-width="3"/>
+  <path d="M822 537l12 11-12 11" fill="none" stroke="#77C5F6" stroke-width="3"/>
+  <text x="631" y="606" class="body">Regenerated after normal cleanup</text>
+  <text x="614" y="665" class="tiny">CONTROLLED DEPENDENCY ISOLATION</text>
+</g>
+<path class="line" d="M1043 488H1122"/>
+<path d="M1107 475l18 13-18 13" fill="none" stroke="#7FD8F0" stroke-width="3"/>
+<g filter="url(#shadow)">
+  <rect x="1127" y="275" width="381" height="417" rx="26" fill="url(#card)" stroke="#4C9E8E" stroke-width="2"/>
+  <rect x="1150" y="302" width="334" height="54" rx="12" fill="#193F43"/>
+  <circle cx="1182" cy="329" r="10" fill="#6DE5B4"/>
+  <text x="1207" y="337" class="section">03  /  VERIFIED REPAIR</text>
+  <text x="1166" y="410" class="h">Reference rebuild</text>
+  <text x="1166" y="447" class="body">Clean baseline + scoped reset</text>
+  <text x="1166" y="477" class="body">Required DLLs reintroduced</text>
+  <rect x="1164" y="519" width="305" height="112" rx="16" fill="#102D36" stroke="#4C9E8E"/>
+  <path d="M1191 550l14 14 25-29M1191 591l14 14 25-29" fill="none" stroke="#78E6BA" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1245" y="562" class="body">Editor opens</text>
+  <text x="1245" y="603" class="body">Compile: 0 errors</text>
+  <text x="1165" y="665" class="tiny">RESTART VALIDATION PASSED</text>
+</g>
+<rect x="92" y="737" width="1416" height="84" rx="21" fill="#12273D" stroke="#4B6881" stroke-opacity=".7"/>
+<text x="122" y="772" class="section">TECHNOLOGY</text>
+<text x="122" y="801" class="body">NinjaTrader 8    ·    NinjaScript / C#    ·    .NET Framework    ·    Dependency Forensics</text>
+<text x="1508" y="861" text-anchor="end" class="tiny">SANITIZED CONCEPT / NOT A CLIENT SCREENSHOT OR RELEASE CERTIFICATE</text>
+</svg>
