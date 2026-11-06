@@ -4,6 +4,16 @@
 
 This repository contains **no client identity, no proprietary NinjaScript source, no licensed vendor binaries, no account identifiers, no private screenshots, no commercial terms and no private conversations**.
 
+## Executive summary
+
+OSYSTIC investigated a NinjaTrader 8 editor crash triggered by a required third-party strategy package. A controlled baseline, dependency isolation, and assembly-reference rebuild restored the editor for the original incident. This completed troubleshooting scope does not establish universal add-on compatibility.
+
+## Conceptual engineering illustration
+
+![NinjaTrader editor assembly-reference recovery diagram](assets/ninjatrader-editor-recovery.svg)
+
+*OSYSTIC editorial illustration, not a client screenshot or independent acceptance certificate.*
+
 ## What this repository is
 An anonymized engineering case study of a NinjaTrader 8 compatibility failure where importing a third-party AI/strategy package caused the NinjaScript Editor to crash inside its IntelliPrompt assembly-loading path.
 
@@ -62,6 +72,12 @@ Compile + restart validation
 
 ## Technology
 `NinjaTrader 8` · `NinjaScript / C#` · `.NET Framework` · `assembly loading` · `dependency isolation` · `configuration forensics`
+
+## Ownership and handover
+
+OSYSTIC authored this sanitized engineering narrative and editorial diagram. The customer's licensed vendor components, account information, original diagnostics and any proprietary NinjaScript source remain outside the public showcase. The public repository is not an executable delivery package or signed handover record.
+
+The documented technical recovery checkpoint covers editor startup, F5 compilation with zero errors and restart checks in the repaired baseline. Later environment-wide plugin conflicts are outside this original completed scope.
 
 ## Not claimed
 No profitability claims, no redistribution rights for third-party software, and no claim of universal compatibility with every NinjaTrader add-on.
